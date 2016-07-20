@@ -1,10 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Greetings from './greetings'
+import Input from './input'
+import Button from './button'
 
 class App extends React.Component {
   render(){
-    return <Greetings name={'A-Reum'} />
+    return (
+      <Input />
+      <Greetings />
+    )
   }
 }
 
