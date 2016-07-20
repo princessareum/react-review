@@ -7,8 +7,11 @@ import Button from './button'
 class App extends React.Component {
   render(){
     return (
-      <Input />
-      <Greetings />
+      <div>
+        <Input />
+        <Button />
+        <Greetings />
+      </div>
     )
   }
 }

@@ -1,10 +1,14 @@
 import React from 'react'
 
-export default const Button = (props) => (
-  <div>
-    <button
-      type="submit"
-      >Press Me</button>
-  </div>
 
-)
+function Button(){
+  return (
+    <div>
+      <button type="submit">
+        Press Me
+      </button>
+    </div>
+  )
+}
+
+module.exports = Button;
